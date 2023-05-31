@@ -1,0 +1,26 @@
+Error: 0
+
+An error of 0 means the game ended without any issues.
+
+Error: 1
+
+An error of 1 means that a file is missing in a resource pack, or the one that
+has been selected has been deleted. To fix this, go into "gameInfo.json".
+
+In your text editor, change the text after '"resource pack":' (without the speech
+marks obviously) to "main". It should look like this now.
+
+{"resource pack":"main","gridded":true,"icon":"pick.png"}
+
+Error: 2
+
+An error of 2 means that a game file, located outside of resource packs are missing.
+To fix this, the best way is to restart the game. Make sure you have saved all your
+quarries outside of the game!
+
+Error: 3
+
+An error of 3 means that something went wrong with the interpreter that runs the code.
+These are often bugs located in Python (the language quarry is made in), or the computer
+that runs it. For the first option, i would just wait until it gets updated to a new
+version of python, and for the second option, just buy a better computer.
